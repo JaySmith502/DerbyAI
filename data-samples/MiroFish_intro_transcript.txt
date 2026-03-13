@@ -1,0 +1,319 @@
+(Transcribed by TurboScribe. Go Unlimited to remove this message.)
+
+Hello, everyone. Today, I'd like to introduce you to my new project, MirrorFish. In the past month, our group intelligence engine has been very popular.
+
+Basically, it simulates people in reality through a lot of agents, and then builds parallel worlds, such as social networks, etc. As an open-source community, we are the first open-source simple and general group intelligence engine. I think we have a lot of potential.
+
+Our slogan is to upload any report and postpone the future immediately. What does that mean? Even if there is only a paragraph of text, our MirrorFish can also base it on the reality of the text. I understand reality as the world described in the text.
+
+Then it automatically generates a parallel world composed of millions of agents corresponding to it. We don't need anyone to participate in the whole process. It's all AI to understand and generate automatically.
+
+Then we can use God's vision. After generating the world, we can use God's vision to inject all kinds of variables we want. Then we'll see what the future will be like.
+
+Find our partial freedom, the partial freedom in our decision-making. Let the future be in the hands of the agent. Let the decision win after a hundred battles.
+
+This logo is a fish. It prints countless characters in the mirror, just like the countless parallel worlds we've built. Our operation is also very simple.
+
+We just need to upload any report, any report, even a million-character report. I'm uploading a data analysis project. It's called Betafish.
+
+It generates a 30,000-character Wuhan University report. We send it in. Then what's the second step we do? We just need to input a paragraph of what we want it to predict.
+
+We just need to input a paragraph of text. Let's say that if the five Wuhan Universities published a cancellation announcement for Xiao Mengmeng's punishment, what would the public opinion look like? Yes, we only need to do these two steps in the entire process. One is to send in a large amount of text.
+
+The second step is to say what we need. That's it. Then we just need to give the rest to the AI.
+
+All right, we just need to click on the start engine. The first step is to build our layout. In this step, I used GraphRag as the memory engine for the entire event and the simulation world.
+
+GraphRag, compared to traditional Rag, can not only answer very specific questions, it can also answer all kinds of questions. For example, what is the overall direction of our event? Then it can handle it very clearly through the map. This is an excellent point of the traditional Rag as a large model database.
+
+But what we use is not just GraphRag. We use an enhanced version. We use continuous GraphRag.
+
+Why do we use continuous? It is because we simulate the reality that it is continuous. For example, Mark had a coffee cup the day before yesterday. He had a coffee cup in his memory.
+
+But today he broke the coffee cup. So the memory in front of him can be expired, right? Yes, so we continue to do this. It can mark the logic of the existence of this memory in everyone's memory, as well as the logic of the overall memory in our event.
+
+For example, the latest news of the five major events is that he published a cancellation announcement. So his previous punishment announcement has become a thing of the past. It will be remembered by our continuity.
+
+You can see that the first step has been completed. It is a physical generation. What does it mean? It means that our AI automatically understands our prediction needs and all the information we give it.
+
+Then it guides us to build our map. It first goes through a map to sort out our current situation in order to simulate it well, right? So it is equivalent to the first step, which is to guide the large model how to build this map. It generates some hints.
+
+We can see its physical constraints. So we can take a look at the students registered at the university. So what is the example he gave? Xiao Mengmeng, Yang Jinyuan.
+
+Basically, we can see through the example he gave that he has basically understood this thing. He has sorted out the two main workers. He also gave us some guidance on the relationship.
+
+For example, the relationship between the individual and the organization, etc. It is the concept of generating a layer of abstractions first. Then we guide the large model to build this specific map.
+
+Yes, our map building is to help the large model to understand the current situation described by our existing data and to use this map as a graph reg, as a continuous graph reg, to build each individual's memory in the simulation world. And then the memory of our entire event system, the memory of MirrorFace. We will wait a moment for this.
+
+Then it will automatically sort out our document. It will analyze everything and then build a line map. Now, after more than ten minutes, the entire map has been built.
+
+It can be called a map or a graph reg. We can see that it uses 129 nodes and 228 edges. It has clarified what the reality described in our report looks like.
+
+You can see that this map is very confusing. Let's take a look at the full screen and click on this map. Okay, we can see a central node, which is our Wuhan University.
+
+We click on it and see that it is a depth gap. Our current summary expresses the latest news, which is that in our report, it must be reg-divided and divided into the latest part for it. Its summary is like this.
+
+In fact, the property of this node is very abundant behind it. Then we can all sort it up and down. However, our map shows the latest one.
+
+We can take a look at our heroine. We can find out how the bloodline is. She didn't write Wuhan University because it was before Wuhan University.
+
+Her summary shows the latest event. Of course, her memory will always exist in the past. Okay, let's see if there is our hero.
+
+This map is temporarily blank. Oh, I found Xiaomeng. You can see Xiaomeng's library event on July 11, 2020.
+
+Then it says that as of August 21, 2025, the school has not withdrawn the punishment. Our report is that the punishment has not been withdrawn Yes, it is equivalent to that we have sorted our current situation through this whole map. We can take a look at the side properties.
+
+There are many side properties. How is Xiaomeng University doing now? It has been reg-divided and divided. Then we find another one.
+
+Oh, there is a word in Wudang, which is self-reporting. The production cost of this promotion film is as high as 400 million yuan. Wudang Leitou Company.
+
+The Leitou Company report shows that the number of students in Wudang has increased by 2.1%. It is that our node properties and side properties have built our real seed together. This is a concept of abstract. Our real seed has been built.
+
+Okay, let's move on to the next step. We enter the environment building. That is, we have cleared the reality.
+
+So what are we going to do next? Prepare to carry out a simulation of the environment building. Okay, let's click. So what about the first step? First of all, it will automatically extract from all these map data that is not our abstract feeling.
+
+For example, the library event in Wudang is an abstract concept. Then it can't be extracted as an individual in our simulation world or an institution. So in this step, we are the big model agent.
+
+It will automatically read the map and then put these inside as an individual. For example, the Leitou Company can be used as an institution. It will take it out and write some of their characteristics.
+
+For example, what is the appearance of our event appearance age and personality? Although it is an institution, it must have a personality for the public in this process. And its brief and detailed personnel. What are the detailed personnel? Events in Wudang.
+
+The panoramic experience in this event. What are some of its behavioral preferences and some of its unique memories. We can extract it through some of the memories in this graph.
+
+As well as our map. The map is a graph. Take out all of its neighbors and so on.
+
+Then, as its personnel, all of them are inserted into a large section. See how the institutional memory is. It is a very brief personnel.
+
+A very detailed personnel. Write its memory. We can see that 10 agents have been generated now.
+
+10 simulations. Then we have to generate a total of 68. This is what the big model thinks.
+
+He proposed 68 in the picture. A personnel to be used to simulate the world. In less than 5 minutes, our personnel has been generated.
+
+It can be seen that 68 people have been generated. What about us now? Its principle is that we extract it. For example, Wuhan University, we extract this entity.
+
+After extracting it, we take out all of its past memories. Then we take out all of its associated nodes. Some of the associated nodes, some of the associated nodes, some of the associated nodes, and some of the current memories.
+
+We extract them all as an upper and lower text. It is equivalent to pulling out the things in the map. As an upper and lower text, and we call it the traditional RAG.
+
+We do some matching to get some information. All of it is inserted into the upper and lower text to generate a personnel in it. Then we do the same for all 68.
+
+We extract some information from the map. Then we take full advantage of the graph RAG to extract information. In this way, not only do we extract some unique information that is very accurate and belongs to it, but we can also extract some information that is very relevant to it.
+
+In this way, we can generate the personnel. The next step is to generate the configuration of the platform. Everyone has a different activity time.
+
+Let me give you an example. Wuhan University is usually active on the Internet on Mondays and Fridays. However, if we are a student, he may be very active on the Internet from 9 p.m. to 12 p.m. He is not restricted by our working hours.
+
+For example, the frequency of Wuhan University's speech is very low, but it has a great influence. As an individual, his speech frequency may be very high, but his influence will be very low. Because we want to report at will, we can do all the predictable things.
+
+Then we can't write it down. So we leave this part to the big model. He will read the personnel one by one.
+
+He first understands the whole event, which is our reality, and then understands our predictable needs. Finally, we read the personnel one by one and then build a configuration that belongs to this personnel. We can see that it is already very fast.
+
+It took about two minutes to generate all the configuration. Let's take a look. First of all, it is a global configuration.
+
+The big model thinks that our simulation time should be set to 120 hours. Let's do it. We can see that it has this time configuration below.
+
+It needs a long-term emotional accumulation. So it set 120 hours, which is the simulation period of five days, to cover the information release, fermentation, and the whole process of stability, etc. It is all set by the big model.
+
+Including each round in our program, we are equivalent to an hour in reality. It takes a total of 120 hours. In the big model, it also has 10 to 60 people per hour.
+
+Then we can take a look. These are also set by the big model. Because we are in China, the first stage is from 0 o'clock to 5 o'clock.
+
+Everyone is sleeping. The peak stage is one night. Everyone is off work.
+
+Workday, early hours. These are all generated by the big model itself. It understands our Chinese background, and then it generates these things.
+
+We can take a look at the following. About each agent. The head of the company is at this time.
+
+It doesn't work at noon. The call platform is more active at this time. The school is like this.
+
+The netizen is active right away. We can take a look at the influence. The emotional image of the head of the company.
+
+It doesn't matter. It is a neutral plus zero. Then the call, everyone, the emotional image is more negative.
+
+The school is also in a negative, passive emotional state. It is not big now. Then we can see some of this.
+
+The emotional image is more active after 8 o'clock. And its activity, influence, response delay. We have all set these.
+
+These are all set by our own intelligence. To understand the event and then to set it. You see, we all have the corresponding configuration for each agent.
+
+Okay, and then we are our platform configuration. We simulate two worlds at the same time. So every world has its own characteristics in its information transmission.
+
+We gave some real-time full-fledged response. Strength, etc. These are all big models to decide on their own.
+
+And then the following is some of its reasoning output. Okay, we're at the last step. It's our initial activation arrangement.
+
+This is what we call God. To input the variables. What did we ask him to do at the time? What would happen if the cancel announcement was released? So our simulation world.
+
+In fact, everyone is already there. Do we need to give him some input variables? Input the variables of this cancel announcement. This is also decided by the big model itself.
+
+He designated five agents. Is the school agent to release this cancel announcement. And then Yang Mei, he's going to do a full interpretation.
+
+And some comments from some outside netizens. And the cancel punishment of this email. I don't know how to solve it for you.
+
+I understand that the school had to pay a price for it. How about the big model to make an initial variable arrangement? Relative to the activation of this simulation world. Okay, now that we're all set.
+
+Let's start the simulation. In this case, because I'm just doing a demo for him. So I'm not going to do this 120 rounds.
+
+You can see that it's about 72 minutes. So let's do a short 30 rounds. It takes about 30 hours to simulate reality.
+
+It's about an 18-minute look. Okay, I'm going to start. You can see that the left side is still our map.
+
+What's different is that there's a long-term memory update. It's because of the action on our right. Every step of his action.
+
+He's going to update our map dynamically. In this case, we can guarantee that our map. He recorded our current simulation world.
+
+He recorded each of our individual memories. And some of the global memories of the world. It's convenient for us to analyze the world behind us.
+
+So every action of our agent. He's going to update our map dynamically. In the graph, we can see that he's already done it.
+
+This is our initial arrangement. In the two events, he gave some initial arrangements to send an email. So in the two events, he has each of his own.
+
+We can become a tool set. You let the agent go to a person. So you can have this event.
+
+He can just send an email, like it, and then forward it. So he might have a little more of this. Basically, all the behavior on the social platform in our reality.
+
+He can simulate it. Including this block, search. You can do it.
+
+Okay, let's wait a minute. And then let this simulation event go for 30 rounds. It's about a 10-minute event.
+
+Okay, the whole process. He's already. We can see that 30 rounds of simulation.
+
+30 hours in reality. He's actually over. Let's take a look at this picture.
+
+It's very exaggerated. The whole platform is the whole world. We can look at his summary.
+
+I'm afraid it's going to cancel the punishment. How is it? It's just that our dynamic behavior has been updated. This picture is a very large picture.
+
+It's more complicated than the picture we built in the beginning. It's just that after 30 rounds, everyone's actions have been updated to a state of a picture. But don't worry.
+
+We don't look at this complicated picture. Who's going to look at it? We'll give it to the smart body. Go and see the big model.
+
+He will analyze it very clearly. Let's take a look at his simulation world. How does the agent act? This is some of our initial arrangements.
+
+What about this extrovert student? And then down here, you can see the quote. And then some information was released. There are some words.
+
+Some information was released. It was just a foreign platform. And then this like.
+
+And then the execution of the search. What about the excellent words? Let's take a look at the payment platform. How does the media report? He quoted an article of his own.
+
+What about the biotech expert? You can see that it's still a very rich behavior. A lot of news was forwarded. Let's take a look at how long it took.
+
+It was 35 minutes just now. Then we simulated the end. Look at the time.
+
+From 35 to 48, a time of less than 15 minutes. We simulated 30 hours in reality. It's equivalent to simulating an hour in reality every 30 seconds.
+
+Then we simulated a situation of 30 hours in the past in reality. Then we can enter our production result report. Because our prediction demand is there.
+
+Then our MirrorFace engine will give you an answer. So now we have built the environment and simulated it. Then we call our report production smart body.
+
+Let it read our picture automatically. Read our graph. Read our reg.
+
+To understand our whole situation. A predicted situation. Let it answer our questions.
+
+You can see that it is a plan first. Then we plan our big bar first. Then it makes a plan for the event.
+
+You can see that it has a total of two chapters. This is relatively rare. I usually test it in four chapters.
+
+Okay, we can see that the report has been produced. Then there are mainly two chapters. Let's take a look at its workflow on the right.
+
+We can also say that it is an agent workflow. First, it makes a plan. Then it writes the first chapter first.
+
+It calls our insight. Deep insight toolset. It mainly does a deep analysis of our graph.
+
+Then we simulate the memory of everyone in the world. The memory of the individual and the overall memory. To understand this thing.
+
+To understand the simulated world. We can take a look. It says that our parameter is that after the university is cancelled, the public belief is linked to its core cause.
+
+Then we drift it to generate a five-character question. Then we can see that we have obtained the current key memory. Because we are continuous.
+
+Some memories will be marked as outdated. So it will take some of the current memory. Because our core entities can be seen.
+
+The public is linked to the four. Then some of our relationships are also taken out. This is a tool that is equivalent to deep unlocking.
+
+Then we can see that it is a tool for a full-scale search. Then this tool is mainly used for event processing. It will carry out a map of the latitude and longitude.
+
+Combine some query functions of our graph. Can get some current memory. It will also get the memory of the history of the past.
+
+We can see that the past time will be marked later. And the entity we designed. It will get it.
+
+Then it comes to our fun function. It will call our interview function. This is a sub-agent.
+
+It automatically goes to find us. Select the most suitable five people from this network. Conducted an interview.
+
+Then it is not a single question. We can see that it is a deep interview. After a question, another question.
+
+Then it is in two events. Two parallel events have each made their own answers. Then you can choose the public.
+
+It is a self-search to find people on the Internet. Conduct an interview. This is our interview sub-agent.
+
+After the interview, we can see some of its summaries. Some of the key quotes. In the end, we will not return the complete interview record.
+
+Our sub-agent. We do a top-down compression. We return our interview sub-agent.
+
+This can be seen that the original output interview sub-agent is very comprehensive. Then the next step is to call the tool. Then the sub-agent writes.
+
+We have six tool sets. Then call it. In this case, after we finish, our article is finished.
+
+We can take a look at our forecast report on the left. What is it like? First of all, it carried out a fiscal analysis. You can see that it is said to revoke the penalty.
+
+The revocation of the penalty caused a trust crisis in public opinion. Then it ignited our public opinion again. We can take a look.
+
+As the information is disclosed, public attention is shifted from individual events to institutional defects. This is the original text of our simulation world. Yangji media criticized the delay in the revocation of the penalty of Wuhan University.
+
+I think it has exposed some flaws. The more important thing is that it is not deep enough. It's a five-hour delay.
+
+How is it? Everyone is criticizing this matter. Then some students who were interviewed. My first reaction is to laugh.
+
+I was shocked by the decision to make such a frivolous decision. It can be revoked in such a hurry. This is the real interview record.
+
+This report is very comprehensive. It is mainly not to make a report by yourself, but to analyze this network. You can see that there are a lot of quotes on this online network.
+
+These are some of your speeches after the simulation world. If I don't want to look at this complicated report, what can I do? I also want to ask some questions in depth. How to do it? Let's go to our last link.
+
+It's called the deep interaction link. Let's click it. Okay, let's go to our deep interaction link.
+
+Let's look at it first. It can have three functions. The first one is with our report agent.
+
+It's the report agent from the last step. Then we have a deep conversation. Then we give it four tools.
+
+We are a quick conversation version of the report intelligence system. One is a deep echo. One is full-screen tracking.
+
+And our quick unlocking and virtual interview. We can ask him to use this directly. Let's ask him a simple question first.
+
+One sentence, one sentence to sum up. The five major cancels of the project. Has everyone's mood changed overall or deteriorated? Why? Let's ask him.
+
+So this report agent stores all the memories of our event. And all the steps of our whole workflow. It's all in our report agent's memory.
+
+We can see that the mood has deteriorated as a whole. Because the knockout was regarded as a passive correction of public opinion. Then we quoted two of you.
+
+After five success, it became the most obvious answer. It means that he is not a passive correction of public opinion. Then we can also let him interview Xiaomomo directly.
+
+Ask him how he feels now. Then behind him, our intelligence system will call our interview. To interview Xiaomomo in our simulation world.
+
+Let's support him. Our interview results are back. We can see that Xiaomomo's feeling is empty.
+
+All the emotional containers are drawn from the cup. He is not happy, just tired and cold. The effect is too late.
+
+Unable to return the blessing of death. His health is not good. This is some of his interviews.
+
+Let's make an application. It's quite interesting. We can also directly talk to any individual in our simulation world.
+
+For example, Xiaomomo's grandfather passed away. Then our individual represents the family of Xiaomomo's grandfather. He is not an individual.
+
+Let's not talk about this. We can click on each character in the simulation world. Then have a conversation with him.
+
+Then all his personality, all his actions are stored in his memory. We can also carry out a questionnaire survey. Let's choose some of the people.
+
+For example, choose this one. Then we send a questionnaire. Just send a questionnaire to everyone.
+
+For example, we do some market research. Do some service decisions. The questionnaire function is very useful.
+
+We can choose some people in the world to send them a questionnaire. Then accept their answers. This is the complete function of our Mirofish.
+
+Then it is expected to be on the open source GitHub recently. I hope everyone will support it.
+
+(Transcribed by TurboScribe. Go Unlimited to remove this message.)
